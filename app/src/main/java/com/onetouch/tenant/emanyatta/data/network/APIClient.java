@@ -25,7 +25,7 @@ public class APIClient {
             return chain.proceed(request);
         }).addInterceptor(interceptor).build();
 
-        String baseUrl = "https://platform.nationfy.com";
+        String baseUrl = "https://platform.nationfy.com/";
 
         return new Retrofit.Builder()
                 .baseUrl(baseUrl)

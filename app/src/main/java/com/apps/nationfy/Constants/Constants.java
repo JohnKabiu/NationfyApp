@@ -12,7 +12,7 @@ import java.util.Locale;
 
 public class Constants {
 
-    public static String BASEURL = "https://test.nationfy.com";
+    public static String BASEURL = "http://platform.nationfy.com";
     public static String CONNECTION = BASEURL +"/api.php?";
 
     public static String SIGNUP = CONNECTION + "signup";
