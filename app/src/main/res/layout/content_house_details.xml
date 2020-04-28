@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.onetouch.tenant.emanyatta.HouseDetailsActivity"
+    tools:showIn="@layout/activity_house_details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewHouseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="5dp"
+            android:text="Apartment Name"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textViewAppLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="5dp"
+            android:text="Juja Town, Kenya" />
+
+        <TextView
+            android:id="@+id/textViewApartmentDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygen_light"
+            android:padding="10dp"
+            android:text="This apartment is one of the best apartments in kenya, With spacious rooms and ample parking for every person." />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

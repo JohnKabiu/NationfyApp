@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "393669135508",
+    "firebase_url": "https://divine-axis-262718.firebaseio.com",
+    "project_id": "divine-axis-262718",
+    "storage_bucket": "divine-axis-262718.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393669135508:android:3f8715839cdd3c8505f881",
+        "android_client_info": {
+          "package_name": "com.apps.nationfy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393669135508-plf8st1jeqd0setqcmgih6647a9bm1bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.nationfy",
+            "certificate_hash": "4fea2a624c6365eb7efb62c7fb4ae5531049cf76"
+          }
+        },
+        {
+          "client_id": "393669135508-17717503ail4qvgfesa3uu341mtn75sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtBEILlVZr5171vzEhZm7gBkZVuxr1id4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393669135508-17717503ail4qvgfesa3uu341mtn75sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

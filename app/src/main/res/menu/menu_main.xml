@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.onetouch.tenant.emanyatta.BuyAirtimeActivity">
+
+    <group>
+        <item
+            android:id="@+id/action_viewHouses"
+            android:orderInCategory="100"
+            android:title="View Featured Houses"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_service_providers"
+            android:orderInCategory="100"
+            android:title="Service Providers"
+            app:showAsAction="never" />
+    </group>
+
+    <group
+        android:id="@+id/logout"
+        android:enabled="true">
+        <item
+            android:id="@+id/action_logout"
+            android:orderInCategory="100"
+            android:title="Logout"
+            app:showAsAction="never" />
+    </group>
+</menu>
